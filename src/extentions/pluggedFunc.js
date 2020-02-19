@@ -1,3 +1,3 @@
 export function pluggedFunc() {
-    return "custom module";
+    return "custom module func";
 }
