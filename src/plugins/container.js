@@ -3,7 +3,7 @@ export class Container {
         this.functions = {};
     }
 
-    registerFunc = (name, func) => {
+    register = (name, func) => {
         this.functions[name] = func;
     }
 

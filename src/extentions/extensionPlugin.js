@@ -6,7 +6,7 @@ import { PluggedComponent } from './PluggedComponent';
 
 const container = new Container();
 
-container.registerFunc(Constants.SomeTextFunc, pluggedFunc);
-container.registerFunc(Constants.SomeComponent, PluggedComponent);
+container.register(Constants.SomeTextFunc, pluggedFunc);
+container.register(Constants.SomeComponent, PluggedComponent);
 
 export default container;

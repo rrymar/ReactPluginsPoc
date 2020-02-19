@@ -5,8 +5,8 @@ import './App.css';
 import { Component } from './Component';
 import { SomeComponent } from './plugins/pluginsConstants';
 
-//import container from './core/corePlugin';
-import container from './extentions/extensionPlugin';
+import container from './core/corePlugin';
+//import container from './extentions/extensionPlugin';
 
 const PluggedComponent = container.resolve(SomeComponent);
 

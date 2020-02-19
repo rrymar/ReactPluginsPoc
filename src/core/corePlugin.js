@@ -6,7 +6,7 @@ import { CoreComponent } from './CoreComponent';
 
 const container = new Container();
 
-container.registerFunc(Constants.SomeTextFunc, someFunc);
-container.registerFunc(Constants.SomeComponent, CoreComponent);
+container.register(Constants.SomeTextFunc, someFunc);
+container.register(Constants.SomeComponent, CoreComponent);
 
 export default container;
